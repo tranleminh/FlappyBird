@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 7850592079184197588}
   - component: {fileID: 7850592079184197589}
   - component: {fileID: 3977529245681558211}
+  - component: {fileID: 2057108244335320280}
   m_Layer: 0
   m_Name: bullet
   m_TagString: Untagged
@@ -70,7 +71,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 2
-  m_Sprite: {fileID: 21300000, guid: 39f27f094e101e24d997a0c9dd9d016a, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 399a894a01d7d9d409a5b9500c291e5b, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -90,10 +91,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 7850592079184197590}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 686dcb3acbf846f4198508476c5d0aab, type: 3}
+  m_Script: {fileID: 11500000, guid: 752796bde0f895f4d99a09e7be2f682e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  bullet: {fileID: 7850592079184197590}
+  bullet: {fileID: 0}
   position: -4
 --- !u!61 &3977529245681558211
 BoxCollider2D:
@@ -121,3 +122,17 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.16, y: 0.14}
   m_EdgeRadius: 0
+--- !u!114 &2057108244335320280
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7850592079184197590}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 752796bde0f895f4d99a09e7be2f682e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bullet: {fileID: 0}
+  position: -4

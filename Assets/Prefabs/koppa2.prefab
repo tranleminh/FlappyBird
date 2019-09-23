@@ -14,7 +14,6 @@ GameObject:
   - component: {fileID: 486397711093828135}
   - component: {fileID: 5226058895717049242}
   - component: {fileID: 8105217475009590979}
-  - component: {fileID: 6071013600623270741}
   m_Layer: 0
   m_Name: koppa2
   m_TagString: Untagged
@@ -73,12 +72,12 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 2
-  m_Sprite: {fileID: 21300002, guid: aeed075d95ca7454187d5cb214153fcd, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 7d7c9bc4f71322242b5782a54891f6d0, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 0.19, y: 0.28}
+  m_Size: {x: 0.18, y: 0.28}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
@@ -94,7 +93,7 @@ Animator:
   m_GameObject: {fileID: 2362020109814671798}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 012a8cb6791ad9845873d4feead1cb58, type: 2}
+  m_Controller: {fileID: 9100000, guid: c71bcc2d889acba4181597fe8ccee6de, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -110,14 +109,13 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2362020109814671798}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c6f57eaecac323e4595b27aa91a5c28a, type: 3}
+  m_Script: {fileID: 11500000, guid: 98b52671a083f1147881398469484d33, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   anim: {fileID: 8391115352804032052}
-  koppa: {fileID: 3802146951956152759}
-  duration: 2
+  speed: 1.5
 --- !u!50 &5226058895717049242
 Rigidbody2D:
   serializedVersion: 4
@@ -156,8 +154,8 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.19, y: 0.28}
-    newSize: {x: 0.19, y: 0.28}
+    oldSize: {x: 0.18, y: 0.28}
+    newSize: {x: 0.18, y: 0.28}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
@@ -165,17 +163,3 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.19, y: 0.28}
   m_EdgeRadius: 0
---- !u!114 &6071013600623270741
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2362020109814671798}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0b25825e880a4b747b77cdd3d7ddf029, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  anim: {fileID: 8391115352804032052}
-  speed: 1.5

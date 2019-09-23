@@ -5,7 +5,6 @@ using DG.Tweening;
 
 public class DOTweenRotation : MonoBehaviour
 {
-    public GameObject fireball;
     public float duration;
     private Vector3 v = new Vector3(0, 0, -135);
     // Start is called before the first frame update
@@ -17,6 +16,6 @@ public class DOTweenRotation : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        fireball.transform.DORotate(v, duration, RotateMode.FastBeyond360).SetRelative().SetEase(Ease.Linear);
+        transform.DORotate(v, duration, RotateMode.FastBeyond360).SetRelative().SetEase(Ease.Linear);
     }
 }
