@@ -60,18 +60,6 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\BirdFlyScript.cs" />
-    <Compile Include="Assets\BulletMoving.cs" />
-    <Compile Include="Assets\DOTween Examples\Basics.cs" />
-    <Compile Include="Assets\DOTween Examples\CustomPlugin Example\CustomPluginExampleBrain.cs" />
-    <Compile Include="Assets\DOTween Examples\CustomPlugin Example\CustomRange.cs" />
-    <Compile Include="Assets\DOTween Examples\CustomPlugin Example\CustomRangePlugin.cs" />
-    <Compile Include="Assets\DOTween Examples\Example Assets\DragTarget.cs" />
-    <Compile Include="Assets\DOTween Examples\Follow.cs" />
-    <Compile Include="Assets\DOTween Examples\Materials.cs" />
-    <Compile Include="Assets\DOTween Examples\Paths.cs" />
-    <Compile Include="Assets\DOTween Examples\Sequences.cs" />
-    <Compile Include="Assets\DOTween Examples\UGUI.cs" />
     <Compile Include="Assets\DOTween\Modules\DOTweenModuleAudio.cs" />
     <Compile Include="Assets\DOTween\Modules\DOTweenModulePhysics.cs" />
     <Compile Include="Assets\DOTween\Modules\DOTweenModulePhysics2D.cs" />
@@ -79,13 +67,15 @@
     <Compile Include="Assets\DOTween\Modules\DOTweenModuleUI.cs" />
     <Compile Include="Assets\DOTween\Modules\DOTweenModuleUnityVersion.cs" />
     <Compile Include="Assets\DOTween\Modules\DOTweenModuleUtils.cs" />
-    <Compile Include="Assets\DOTweenRotation.cs" />
-    <Compile Include="Assets\GameManager.cs" />
-    <Compile Include="Assets\getCoinScript.cs" />
-    <Compile Include="Assets\KoppaMoving.cs" />
-    <Compile Include="Assets\KoppaMoving2.cs" />
-    <Compile Include="Assets\PipeGenerating.cs" />
-    <Compile Include="Assets\PipeMoving.cs" />
+    <Compile Include="Assets\Script\BirdFlyScript.cs" />
+    <Compile Include="Assets\Script\BulletMoving.cs" />
+    <Compile Include="Assets\Script\DOTweenRotation.cs" />
+    <Compile Include="Assets\Script\GameManager.cs" />
+    <Compile Include="Assets\Script\getCoinScript.cs" />
+    <Compile Include="Assets\Script\KoppaMoving.cs" />
+    <Compile Include="Assets\Script\KoppaMoving2.cs" />
+    <Compile Include="Assets\Script\PipeGenerating.cs" />
+    <Compile Include="Assets\Script\PipeMoving.cs" />
     <None Include="Assets\DOTween\readme.txt" />
     <Reference Include="Unity.TextMeshPro.Editor">
       <HintPath>C:/Users/tranl/Desktop/FlappyBird/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
